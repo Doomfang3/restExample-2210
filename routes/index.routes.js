@@ -1,3 +1,4 @@
+const isAuthenticated = require('../middlewares/isAuthenticated')
 const Beer = require('../models/Beer.model')
 
 const router = require('express').Router()
